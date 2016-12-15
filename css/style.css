@@ -1,0 +1,203 @@
+
+/* Space out content a bit */
+body {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: Calibri,Arial;
+}
+
+.idioma{
+	text-align:right;
+	font-size:1.1em;
+	font-weight: 100;
+	margin-bottom:15px;
+}
+
+.idioma span {
+	color: #999;
+}
+
+.idioma span.separador{
+	margin-left:8px;
+}
+
+.caja{
+	border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.personal-info{
+	text-align: center;
+}
+
+.personal-info img.me{
+	width: 100px;
+}
+
+.name{
+	font-size: 3.9em;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.what-you-do {
+    /*text-align: left;*/
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #3279BB;
+}
+
+.divider{
+    height: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #F8F8F8;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.divider-thin{
+	height: 15px;
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.laburpena{
+	text-align: justify;
+}
+
+.list-row{
+	border-top: 1px solid #DBDEE2;
+	padding: 4px 1px;
+}
+
+.list-row .topic{
+	font-weight: bold;
+}
+
+.job-experience dl{
+	margin-bottom: 5px;
+}
+
+.job-experience dt{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.job-experience dd{
+	font-style: italic;
+}
+
+.job-knowledge ul{
+	padding-left: 0px;
+	list-style: inside;
+}
+
+.job-knowledge ul li {
+	padding-bottom: 8px;
+}
+
+.job-title{
+	font-weight: bold;
+	font-size: 1.33em;
+}
+
+.company-name{
+	font-style: italic;
+}
+
+h3.section-name {
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #2F6AB3;
+	font-weight:100;
+}
+
+.col-first{
+	padding-left:0px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.resume,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10px;
+  /*border-bottom: 1px solid #e5e5e5;*/
+}
+/* Make the masthead heading the same height as the navigation */
+.header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  
+  .personal-info{
+	text-align: left;
+  }
+  
+  .personal-info img.me{
+	width: 100%;
+}
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+/*.resume {
+  margin: 40px 0;
+}*/
+.resume p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .resume,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
